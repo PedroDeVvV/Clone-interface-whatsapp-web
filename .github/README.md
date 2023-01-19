@@ -4,10 +4,10 @@
 
 Projeto proposto em um curso de HTML e CSS avançado, onde pude compreender melhor o uso de pseudoseletores e novamente utilizar tags do HTML semântico, além de algumas técnicas de posicionamente de elementos.
 
-![preview](https://clone-interface-whatsapp-web.vercel.app/)
+![preview](./Captura%20de%20tela%202023-01-19%20112356.png)
 🔗[Clique aqui para acessar](https://pedrodevvv.github.io/Timer-JS/)
-## 🛠️Tecnologias
 
+## 🛠️Tecnologias
 * HTML
 * CSS
 * Visual Studio Code
