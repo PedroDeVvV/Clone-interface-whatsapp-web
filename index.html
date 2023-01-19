@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@1,300&display=swap"
         rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
     <script src="https://kit.fontawesome.com/202d340203.js" crossorigin="anonymous"></script>
     <title>WhatsApp Web</title>
 </head>
@@ -73,11 +74,9 @@
         </aside>
         <main class="chat-container">
             <nav class="chat-navbar">
-                <div>
-                    <div class="contactinfo-container">
-                        <img class="user-photo" src="./assets/img/avatar2.png">
-                        <p class="user-name">Luíza</p>
-                    </div>
+                <div class="contactinfo-container">
+                    <img class="user-photo" src="assets/img/avatar2.png">
+                    <p class="user-name">Luíza</p>
                 </div>
                 <ul class="chattools-container">
                     <li><i class="fas fa-search"></i></li>
@@ -88,13 +87,13 @@
             <div class="messages-container">
                 <div class="bg-image"></div>
                 <div class="chat-messages">
-                    <p class="guest-message">Olá, bom dia!</p>
+                    <p class="guest-message">Olá, bom dia</p>
                     <p class="user-message">Bom dia!</p>
                 </div>
             </div>
             <div class="sendmessage-container">
                 <i class="far fa-grin"></i>
-                <input type="text" name="message" class="userinput" placeholder="Digite uma mensagem">
+                <input id="chatmessage" type="text" name="message" class="userinput" placeholder="Digite uma mensagem">
                 <i class="fas fa-microphone"></i>
             </div>
         </main>
